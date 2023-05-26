@@ -1,0 +1,5 @@
+ls -ltr
+pwd
+useradd nagababu
+mkdir roboshop
+touch file1
