@@ -1,5 +1,5 @@
-user=nalluri
-id ${user}
+user=$1
+id ${user} &>>/tmp/test.logs
 if [ $? -eq 0 ] ; then
   echo "user is already exists"
   else
