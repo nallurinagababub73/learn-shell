@@ -1,3 +1,3 @@
-read -p "enter the name: " name
+read -p "rabbitmq_password: " rabbitmq_password
 
-echo $name
+echo $rabbitmq_password
