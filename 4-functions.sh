@@ -1,7 +1,8 @@
+user=$1
 example() {
   echo a- $a
   b=20
-  useradd ramesh
+  useradd ${user}
   id ramesh
   echo $?
 }
